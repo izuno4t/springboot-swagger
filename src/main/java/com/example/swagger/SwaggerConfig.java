@@ -14,11 +14,10 @@ import java.util.ArrayList;
 
 @Configuration
 @EnableSwagger2
-public class Swagger2Config {
+public class SwaggerConfig {
     @Bean
     public Docket swaggerSpringMvcPlugin() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("sample-api")    // APIドキュメントをグルーピングするための識別名
                 .select()
                 .paths(paths())
                 .build()
