@@ -20,3 +20,9 @@ http://localhost:8080/swagger-ui.html
 
 - [Spring BootのREST APIにSwaggerを導入する](https://qiita.com/YutaKase6/items/52ea048c5352c77330eb)
 - [SpringFox導入時のNullPointerException回避](https://qiita.com/kannna5296/items/aa28bad96e6a91f8ee78)
+- [SwaggerUI url parameter](https://github.com/swagger-api/swagger-ui/security/advisories/GHSA-qrmm-w75w-3wpx)
+
+## update
+
+- 2系は設定ファイルが必要だったが、3系は設定ファイル不要
+- 
