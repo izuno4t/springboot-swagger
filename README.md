@@ -1,4 +1,6 @@
-# SpringBoot with Swagger2
+# SpringFox on SpringBoot
+
+## Swagger UI
 
 http://localhost:8080/swagger-ui.html
 

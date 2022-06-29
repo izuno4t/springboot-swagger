@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.1</version>
+        <version>2.6.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-swagger-ui</artifactId>
+    <artifactId>spring-swagger</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-swagger-ui</name>
-    <description>Demo project for Spring Boot with Swagger UI</description>
+    <name>spring-swagger</name>
+    <description>Demo project</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -25,6 +25,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+        <!-- springfox 2.9.2 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -40,12 +41,12 @@
             <artifactId>springfox-core</artifactId>
             <version>2.9.2</version>
         </dependency>
+        <!-- test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
